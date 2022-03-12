@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/hover-min.css">
+    <link rel="stylesheet" href="Css/lightGallery.css">
+    <link rel="stylesheet" href="Css/aos.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Document</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navv">
+
+    <!--Start of Section NavBar-->
+    <nav class="navbar bg-body navbar-primary shadow navbar-expand-md sticky-top" id="navv">
+        <div class="container">
+            <a class="navbar-brand fs-2" href="#">Ag Coding</a>
+            <button class="navbar-toggler bg-body btntoggle" data-bs-toggle="collapse" data-bs-target="#navg"><span><i
+                        class="text-primary fas fa-bars"></i></span></button>
+            <div class="collapse navbar-collapse" id="navg">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link active hvr-underline-from-center">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link hvr-underline-from-center ">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link hvr-underline-from-center ">Service</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle hvr-underline-from-center"
+                            data-bs-toggle="dropdown">Dropdown</a>
+                        <ul class="dropdown-menu dropdown-menu-body">
+                            <li><a href="#" class="dropdown-item">Ag Coding</a></li>
+                            <li><a href="#" class="dropdown-item">Elzero</a></li>
+                            <li><a href="#" class="dropdown-item">SmartCode</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#port" class="nav-link hvr-underline-from-center ">Portfolio</a>
+                    </li>
+                    <li class="nav-item"><a href="#contact" class="nav-link hvr-underline-from-center ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--End of Section NavBar-->
+
+    <!--Start of section Header -->
+    <section class="header" id="home">
+        <div class="container  h-100 d-flex align-items-center">
+            <div class="position-relative titles">
+                <h3 class=" display-4 mb-3">Welcome To <span class="text-primary">Ag Coding</span></h3>
+                <h6 class="fs-3 text-muted mb-3">We are team of talented designers making website with bootstrap</h6>
+                <div class="btn-groub">
+                    <button class="btn py-2 px-4 btn-primary me-3 mb-2">Get Started</button>
+                    <button class="btn py-2 px-4 btn-outline-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModalLong"><span class="me-3"><i
+                                class="fas fa-play-circle"></i></span>Watch Video</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of section Header-->
+
+    <!--Start of section About-->
+    <section class="about bg-section" id="about">
+        <div class="container py-5">
+            <!--Div text About -->
+            <div class="text-center">
+                <span class="title-before  mb-3 px-3 text-primary rounded">About</span>
+                <h4 class="display-6">Find Out More <span class="text-primary">About Us</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos et provident earum obcaecati quis
+                    exercitationem similique sequi id mollitia distinctio.</p>
+            </div>
+            <!--End of div text About-->
+
+            <!--Start of div row for grid -->
+            <div class="row mt-5">
+                <div class="col-lg-6 mb-3">
+                    <img src="img/about.jpg" alt="about" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perspiciatis sapiente autem,
+                        perferendis libero facere.</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat perspiciatis
+                        dolore, architecto harum nihil officia quas nam. Quod, iusto ipsum?</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex mb-3">
+                            <div
+                                class="icon-container bg-body d-flex align-items-center justify-content-center fs-4 me-3">
+                                <i class="bi bi-book text-primary"></i>
+                            </div>
+                            <div>
+                                <h5 class="fts-italic">Lorem ipsum dolor sit amet.</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptatem cum velit
+                                    alias error perspiciatis.</p>
+                            </div>
+                        </li>
+                        <li class="d-flex">
+                            <div
+                                class="icon-container bg-body d-flex align-items-center justify-content-center fs-4 me-3">
+                                <i class="bi bi-book text-primary"></i>
+                            </div>
+                            <div>
+                                <h5 class="fts-italic">Lorem ipsum dolor sit amet.</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptatem cum velit
+                                    alias error perspiciatis.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--End of div row for grid -->
+        </div>
+    </section>
+    <!--End  of section About-->
+
+    <!--start of setcion progress-->
+    <section class="progress-div bg-body py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <b>Html</b>
+                            <b class="progres-value"><span>0</span>%</b>
+                        </div>
+                        <div class="progress mb-2 mt-2">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <b>Css</b>
+                            <b class="progres-value"><span>0</span>%</b>
+                        </div>
+                        <div class="progress mb-2 mt-2">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <b>Skills</b>
+                            <b class="progres-value"><span>0</span>%</b>
+                        </div>
+                        <div class="progress mb-2 mt-2">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <b>php</b>
+                            <b class="progres-value"><span>0</span>%</b>
+                        </div>
+                        <div class="progress mb-2 mt-2">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <b>JavaScript</b>
+                            <b class="progres-value"><span>0</span>%</b>
+                        </div>
+                        <div class="progress mb-2 mt-2">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex justify-content-between ">
+                            <b>Photoshop</b>
+                            <b class="progres-value"><span>0</span>%</b>
+                        </div>
+                        <div class="progress mb-2 mt-2">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="65"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of setcion progress-->
+
+    <!--Start of  section counter-->
+    <section class="counter-div py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="py-5 bg-section text-center position-relative">
+                        <div class="icon bg-primary rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="bi bi-emoji-smile text-light fs-3"></i>
+                        </div>
+                        <h3 data-counter="150">0</h3>
+                        <h4>Habby Clients</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="py-5 bg-section text-center position-relative">
+                        <div class="icon bg-primary rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="bi bi-journal-bookmark text-light fs-3"></i>
+                        </div>
+                        <h3 data-counter="120">0</h3>
+                        <h4>Projects</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="py-5 bg-section text-center position-relative">
+                        <div class="icon bg-primary rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="bi bi-person-fill fs-3 text-light"></i>
+                        </div>
+                        <h3 data-counter="24">0</h3>
+                        <h4>Hours Of Support</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="py-5 bg-section text-center position-relative">
+                        <div class="icon bg-primary rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="bi bi-headset fs-3 text-light"></i>
+                        </div>
+                        <h3 data-counter="15">0</h3>
+                        <h4>Hard Workers</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of section counter -->
+
+    <!--Start of section Clients-->
+    <section class="bg-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-2 col-sm-6 p-5">
+                    <img src="img/clients/client-1.png" alt="client1" class="img-fluid">
+                </div>
+                <div class="col-md-3 col-lg-2 col-sm-6 p-5">
+                    <img src="img/clients/client-2.png" alt="client1" class="img-fluid">
+                </div>
+                <div class="col-md-3 col-lg-2 col-sm-6 p-5">
+                    <img src="img/clients/client-3.png" alt="client1" class="img-fluid">
+                </div>
+                <div class="col-md-3 col-lg-2 col-sm-6 p-5">
+                    <img src="img/clients/client-4.png" alt="client1" class="img-fluid">
+                </div>
+                <div class="col-md-3 col-lg-2 col-sm-6 p-5">
+                    <img src="img/clients/client-5.png" alt="client1" class="img-fluid">
+                </div>
+                <div class="col-md-3 col-lg-2 col-sm-6 p-5">
+                    <img src="img/clients/client-6.png" alt="client1" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of section clients-->
+
+    <!--Start of section Servicse-->
+    <section class="service py-5" id="services">
+        <!--Div text const-->
+        <div class="text-center">
+            <span class="title-before  mb-3 px-3 text-primary rounded">Service</span>
+            <h4 class="display-6">Check Out More <span class="text-primary">Services</span></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos et provident earum obcaecati quis
+                exercitationem similique sequi id mollitia distinctio.</p>
+        </div>
+        <!--End of div text constant-->
+        <div class="container">
+            <div class="row mt-5">
+                <!--Start Div Card one-->
+                <div class="col-lg-3 col-md-6 mb-3">
+
+                    <div class="card  p-5 shadow hvr-bounce-to-top">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-bar-chart-steps fs-3"></i>
+                        </div>
+                        <div>
+                            <h4>Lorem, ipsum.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga itaque voluptatem, commodi
+                                quisquam optio consequatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End Div card one-->
+                <!--Start Div Card two-->
+                <div class="col-lg-3 col-md-6 mb-3">
+
+                    <div class="card  p-5 shadow hvr-bounce-to-top">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-bar-chart-steps fs-3"></i>
+                        </div>
+                        <div>
+                            <h4>Lorem, ipsum.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga itaque voluptatem, commodi
+                                quisquam optio consequatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End Div card two-->
+                <!--Start Div Card three-->
+                <div class="col-lg-3 col-md-6 mb-3">
+
+                    <div class="card  p-5 shadow hvr-bounce-to-top">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-bar-chart-steps fs-3"></i>
+                        </div>
+                        <div>
+                            <h4>Lorem, ipsum.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga itaque voluptatem, commodi
+                                quisquam optio consequatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End Div card three-->
+                <!--Start Div Card four-->
+                <div class="col-lg-3 col-md-6 mb-3">
+
+                    <div class="card  p-5 shadow hvr-bounce-to-top">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-bar-chart-steps fs-3"></i>
+                        </div>
+                        <div>
+                            <h4>Lorem, ipsum.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga itaque voluptatem, commodi
+                                quisquam optio consequatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End Div card Four-->
+            </div>
+        </div>
+    </section>
+    <!--End of section services-->
+
+    <!-- Start of section Caursol-->
+    <section class="caursol-div py-5">
+        <div class="container">
+            <div id="slid" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100" data-bs-interval="3000">
+                        <img src="img/WhatsApp Image 2021-05-13 at 4.37.05 PM.jpeg" class="d-block mx-auto rounded-circle" alt="">
+                        <div class="carousel-caption">
+                            <h5>Front End:Ahmed Abdrabou</h5>
+                            <p>Skill Use : Html Css Javascript Bootstrp (Version(5))  </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item  h-100" data-bs-interval="3000">
+                        <img src="img/testimonials/testimonials-1.jpg" class="d-block mx-auto rounded-circle" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Back End:Deil Smith</h5>
+                            <p>Skill Use : Php Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100" data-bs-interval="3000">
+                        <img src="img/testimonials/testimonials-2.jpg" class="d-block mx-auto rounded-circle" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Solchaier</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem, ipsum dolor Lorem ipsum dolor sit amet..</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100" data-bs-interval="3000">
+                        <img src="img/testimonials/testimonials-4.png" class="d-block mx-auto rounded-circle" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Abdelaziz Gamal</h5>
+                            <p>Web Developer and Ag Coding channel Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="carousel-control-next" data-bs-target="#slid" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-prev" data-bs-target="#slid" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#slid" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#slid" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#slid" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#slid" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--End of section Caursol -->
+
+    <!--Start of section profile-->
+    <section class="profile py-5" id="port">
+                <!--Div text const-->
+                <div class="text-center">
+                    <span class="title-before  mb-3 px-3 text-primary rounded">Portfolio</span>
+                    <h4 class="display-6">Check Out <span class="text-primary">Portfolio</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos et provident earum obcaecati quis
+                        exercitationem similique sequi id mollitia distinctio.</p>
+                </div>
+                <!--End of div text constant-->
+
+                <!--Start list groub-->
+                <div class="container">
+                    <ul class="list-group list-group-horizontal justify-content-center mt-5">
+                        <li class="list-group-item active" data-filter="all">All</li>
+                        <li class="list-group-item" data-filter="app">App</li>
+                        <li class="list-group-item" data-filter="photo">Photo</li>
+                        <li class="list-group-item" data-filter="web">Web</li>
+                    </ul>
+                    <!--End of list groub-->
+                    <div class="row mt-4 filter-item d-flex justify-content-center align-items-center lightGallery" id="ligtGallery">
+                        <a href="img/portfolio/portfolio-1.jpg" class="col-md-6 col-lg-4 mb-3 app all">
+                            <img src="img/portfolio/portfolio-1.jpg" alt="prof" class="img-fluid w-100 h-100 shadow">
+                        </a>
+                        <a href="img/portfolio/portfolio-2.jpg" class="col-md-6 col-lg-4 mb-3 app all">
+                            <img src="img/portfolio/portfolio-2.jpg" alt="prof" class="img-fluid w-100 h-100 shadow mb-3">
+                        </a>
+                        <a href="img/portfolio/portfolio-3.jpg" class="col-md-6 col-lg-4 mb-3 photo all">
+                            <img src="img/portfolio/portfolio-3.jpg" alt="prof" class="img-fluid w-100 h-100 shadow mb-3">
+                        </a>
+                        <a href="img/portfolio/portfolio-4.jpg" class="col-md-6 col-lg-4 mb-3 photo all">
+                            <img src="img/portfolio/portfolio-4.jpg" alt="prof" class="img-fluid w-100 h-100 shadow mb-3 ">
+                        </a>
+                        <a href="img/portfolio/portfolio-5.jpg" class="col-md-6 col-lg-4 mb-3 web all">
+                            <img src="img/portfolio/portfolio-5.jpg" alt="prof" class="img-fluid w-100 h-100 shadow mb-3 ">
+                        </a>
+                        <a href="img/portfolio/portfolio-6.jpg" class="col-md-6 col-lg-4 mb-3 web all">
+                            <img src="img/portfolio/portfolio-6.jpg" alt="prof" class="img-fluid w-100 h-100 shadow mb-3">
+                        </a>
+                    </div>
+                </div>
+    </section>
+    <!--End of section profile-->
+
+    <!--Start of Section Contact -->
+    <section class="info py-5">
+        <div class="container">
+            <!--Div text const-->
+            <div class="text-center">
+                <span class="title-before  mb-3 px-3 text-primary rounded">Contact</span>
+                <h4 class="display-6">Check Out <span class="text-primary">Contact</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos et provident earum obcaecati quis
+                    exercitationem similique sequi id mollitia distinctio.</p>
+            </div>
+            <!--End of div text constant-->
+
+            <div class="row mt-4">
+                <div class="col-md-12 col-lg-6 mb-3">
+                    <div class="shadow py-5 text-center text-muted">
+                        <i class="bi bi-geo-alt text-primary fs-3 d-inline-block rounded-circle"></i>
+                        <h5 class="py-3">Our Address</h5>
+                        <p>Mhalt Ziad Sea Street Barkat Area</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="shadow py-5 text-center text-muted">
+                        <i class="bi bi-envelope text-primary fs-3 d-inline-block rounded-circle"></i>
+                        <h5 class="py-3">Email us</h5>
+                        <p>aabdrabou819@gmail.com</p> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3" >
+                    <div class="shadow py-5 text-center text-muted">
+                        <i class="bi bi-telephone  text-primary fs-3 d-inline-block rounded-circle"></i>
+                        <h5 class="py-3">Call Us</h5>
+                        <p> phone : 01125178289</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of section Contact -->
+    <section class="map" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 shadow py-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7300238.1786410175!2d30.254350000000002!3d26.69425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1636823549369!5m2!1sar!2seg" width="100%" height="350" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12 shadow py-5">
+                    <form action="">
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <input type="text" class="form-control one" name="username" placeholder="Enter Your Name">
+                            </div>
+                            <div class="col-6">
+                                <input type="email" class="form-control two" name="EMAIL" placeholder="Enter Your Email">
+                            </div>
+                        </div>
+                        <input type="text" name="object" placeholder="Your Object" class="form-control mb-3">
+                        <textarea name="" class="form-control" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Start of section mab And Contact-->
+
+    <!--Start of section footer-->
+    <section class="footer bg-section py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <!--Start of div  left side of grid system-->
+                <div class="col-md-6 col-lg-3 col-sm-12 text-muted d-lg-flex justify-content-center ">
+                    <div>
+                        <h4>Ag Coding</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, cumque.</p>
+                        <p><b>Email : </b>aabdrabou819@gmail.com</p>
+                        <p><b>Phone : </b>01125178289</p>
+                    </div>
+                </div>
+                <!--End of div  left side of grid system-->
+                <!--Start of div  left side of grid system-->
+                <div class="col-md-6 col-lg-3 col-sm-12 text-muted d-lg-flex justify-content-center ">
+                    <div>
+                        <h4>using Skills</h4>
+                        <ul class="list-unstyled ps-4 listed">
+                            <li class="py-1"><i class="bi bi-caret-right-fill text-primary me-1"></i> home</li>
+                            <li class="py-1"><i class="bi bi-caret-right-fill text-primary me-1"></i> home</li>
+                            <li class="py-1"><i class="bi bi-caret-right-fill text-primary me-1"></i> home</li>
+                            <li class="py-1"><i class="bi bi-caret-right-fill text-primary me-1"></i> home</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End of div  left side of grid system-->
+                <!--Start of div  left side of grid system-->
+                <div class="col-md-6 col-lg-3 col-sm-12 text-muted d-lg-flex justify-content-center ">
+                    <div>
+                        <h4>Using Skills</h4>
+                        <ul class="list-unstyled ps-4 listed">
+                            <li class="py-1"><i class="bi bi-caret-right-fill text-primary me-1"></i> home</li>
+                            <li class="py-1"><i class="bi bi-caret-right-fill text-primary me-1"></i> home</li>
+                            <li class="py-1"><i class="bi bi-caret-right-fill text-primary me-1"></i> home</li>
+                            <li class="py-1"><i class="bi bi-caret-right-fill text-primary me-1"></i> home</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End of div  left side of grid system-->
+                <!--Start of div  left side of grid system-->
+                <div class="col-md-6 col-lg-3 col-sm-12 text-muted">
+                    <div>
+                        <h4>Social Media </h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, itaque.</p>
+                    </div>
+                    <div>
+                        <i class="bi bi-twitter bg-primary text-light py-1 px-2 rounded me-2"></i>
+                        <i class="bi bi-meta bg-primary text-light py-1 px-2 rounded me-2"></i>
+                        <i class="bi bi-instagram bg-primary text-light py-1 px-2 rounded me-2"></i>
+                        <i class="bi bi-skype bg-primary text-light py-1 px-2 rounded me-2"></i>
+                    </div>
+                </div>
+                <!--End of div  left side of grid system-->
+            </div>
+        </div>
+    </section>
+    <!--End of section footer-->
+
+
+
+
+
+
+
+    <!--Modal related with button in watch video in navbar(Some notes in this modal is important )-->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <!--Class modal-fullscreen => make modalwidth 100% and height 100%-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title m-auto" id="exampleModalLongTitle">Watch Bootstrab<span
+                            class="text-primary ms-2">Ag coding</span></h5>
+                    <button type="button" class="close py-2 border-0 bg-body fs-3" data-bs-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <object data="https://www.youtube.com/embed/QD9ybCFDVYA" class="w-100"></object>
+                    <!--object tag is look like iframe and should to put /embed/ in link to work-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of modal -->
+    <script src="Js/Vendors/scrollOut.js"></script>
+    <script src="js/Vendors/lightGallery.js"></script>
+    <script src="Js/Vendors/bootstrap.bundle.js"></script>
+    <script src="Js/Vendors/aos.js"></script>
+    <script src="Js/main.js"></script>
+</body>
+
+</html>

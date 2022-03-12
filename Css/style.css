@@ -1,0 +1,172 @@
+/*Style General*/
+:root{
+    --blue:#007bff;
+    --section:#F6F9FE;
+    --title:#e7f1fd;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.bg-section{
+    background-color: var(--section);
+}
+.title-before{
+    background-color: var(--title);
+    font-style: italic;
+    display:inline-block;
+    text-transform: uppercase;
+}
+body{
+    overflow-x: hidden;
+}
+/*End of style General*/
+
+
+
+/*Style of Body */
+
+/*Style some things in navbar*/
+.hvr-underline-from-center:before{
+    background-color:var(--blue);
+    height:2px;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color:var(--blue);
+    color:white;
+}
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+.navbar .active{
+    color:black !important;
+}
+/*End of style navbar*/
+
+/*Start of style Header*/
+.header{
+    height:75vh;
+    background-image: url(../img/hero-bg.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.header::before{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+    background-color:rgba(255,255,255,0.7);
+}
+/*End of style Header*/
+
+/*Start style of modal */
+.modal-body object{
+    height:80vh;
+}
+/*End dof style modal*/
+
+/*Start of style About*/
+h5{
+    font-style:italic;
+}
+.icon-container{
+    width:70px;
+    height:70px;
+    border-radius:49%;
+}
+.progress-bar{
+    transition: 0.6s;
+}
+/*End of style about*/
+
+/*Start of style section counter div */
+.counter-div .icon{
+    width:60px;
+    height:60px;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+/*End of style section counter div */
+
+/*Start of style  Caursol section*/
+.caursol-div{
+    background-image: url(../img/testimonials-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.caursol-div::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+.caursol-div .carousel-inner .carousel-item img{
+    width:150px;
+    height:150px;
+}
+#slid{
+    height:350px;
+}
+.carousel-caption{
+    margin-top:150px;
+}
+/*End  of style caursol section */
+
+/*Start  of style section protflio*/
+.list-group{
+    cursor: pointer;
+}
+.filter-item > a{
+    height:350px;
+}
+.filter-item img{
+    object-fit: contain;
+}
+.filter-item .active{
+    display:block;
+    animation: 0.8s show ease-in-out;
+}
+.filter-item .hidden{
+    display:none;
+}
+@keyframes show{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/*End  of style section protflio*/
+
+
+
+/*Start of style Section Contact */
+.info i{
+    width:50px;
+    height:50px;
+    border:1px dashed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/*End of style Section Contact */
+
+
+/*Start of style section footer div listed*/
+
+
+.cont{
+    width:100px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 78% 62%, 80% 90%, 49% 91%, 20% 90%, 20% 61%, 0% 35%, 20% 10%);
+
+}
